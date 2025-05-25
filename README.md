@@ -22,6 +22,21 @@ To evaluate the model on underwater image datasets, follow these steps:
 2. Save the extracted features as a `.mat` file.
 3. Run `evaluate_model.m` to compute the median performance across **1000 random train-test splits** of the dataset.
 
+## Citation
+```bash
+@ARTICLE{Tolie2025BlindUnderwaterIQA,
+  author={Tolie, Hamidreza Farhadi and Ren, Jinchang and Cai, Jun and Chen, Rongjun and Zhao, Huimin},
+  journal={IEEE Journal of Oceanic Engineering}, 
+  title={Blind Quality Assessment Using Channel-Based Structural, Dispersion Rate Scores, and Overall Saturation and Hue for Underwater Images}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-16},
+  keywords={Image color analysis;Degradation;Measurement;Image quality;Quality assessment;Image edge detection;Indexes;Feature extraction;Attenuation;Lighting;Blind image quality assessment (IQA);dispersion rate (DR)/color richness;image contour (IC);structural features;underwater images},
+  doi={10.1109/JOE.2025.3553888}}
+
+```
+
 ## Contact
 For any questions, feel free to reach out:
 📧 **h.farhaditolie@gmail.com**
